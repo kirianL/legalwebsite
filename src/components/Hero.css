@@ -1,0 +1,113 @@
+.hero {
+  position: relative;
+  background-color: var(--bg-dark);
+  color: var(--text-on-dark);
+  overflow: hidden;
+  min-height: 100svh;
+  padding-top: var(--header-height);
+  display: flex;
+  align-items: stretch;
+}
+
+.hero__bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.hero__grid {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+  align-items: stretch;
+  gap: clamp(16px, 2.5vw, 40px);
+  padding-top: clamp(28px, 4.5vw, 64px);
+}
+
+.hero__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid var(--border-dark);
+  padding-left: clamp(18px, 2vw, 32px);
+  margin-bottom: clamp(40px, 6vh, 76px);
+}
+
+.hero__title {
+  font-size: clamp(2.75rem, 5.4vw, 7.25rem);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.038em;
+  max-width: 13ch;
+}
+
+.hero__title-italic {
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.08em;
+  letter-spacing: -0.02em;
+  font-weight: 400;
+}
+
+.hero__lead-wrap {
+  margin-top: clamp(48px, 10vh, 140px);
+}
+
+.hero__lead {
+  font-size: clamp(0.9375rem, 1.15vw, 1.35rem);
+  line-height: 1.45;
+  color: var(--text-on-dark);
+  opacity: 0.92;
+  max-width: 34ch;
+}
+
+.hero__visual {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.hero__statue {
+  width: auto;
+  height: clamp(500px, 84svh, 1040px);
+  max-width: 100%;
+  object-fit: contain;
+  object-position: bottom right;
+  filter: sepia(0.35) saturate(0.25) hue-rotate(12deg);
+}
+
+@media (max-width: 960px) {
+  .hero {
+    min-height: auto;
+  }
+  .hero__grid {
+    grid-template-columns: 1fr;
+    padding-top: 24px;
+  }
+  .hero__content {
+    border-left: none;
+    padding-left: 0;
+    margin-bottom: 12px;
+  }
+  .hero__title {
+    max-width: 100%;
+  }
+  .hero__lead-wrap {
+    margin-top: 24px;
+  }
+  .hero__visual {
+    justify-content: center;
+    margin-top: 12px;
+  }
+  .hero__statue {
+    width: 100%;
+    height: auto;
+    max-width: 380px;
+    max-height: 460px;
+    object-position: bottom center;
+  }
+}

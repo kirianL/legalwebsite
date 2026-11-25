@@ -1,0 +1,63 @@
+{
+  "url": "http://localhost:5173",
+  "capturedAt": "2026-11-21T05:51:46.679Z",
+  "results": [
+    {
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 900
+      },
+      "viewportScreenshot": "C:\\Users\\Kirian\\Desktop\\LandingFactory\\projects\\legalWebsite\\docs\\design\\captures\\desktop-1440x900-viewport.png",
+      "fullPageScreenshot": "C:\\Users\\Kirian\\Desktop\\LandingFactory\\projects\\legalWebsite\\docs\\design\\captures\\desktop-1440x900-full.png",
+      "metrics": {
+        "scrollWidth": 1440,
+        "clientWidth": 1440,
+        "scrollHeight": 6286,
+        "hasHorizontalOverflow": false,
+        "title": "M&P — Mikhailov & Partners | Private Services Group"
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "tablet",
+        "width": 768,
+        "height": 1024
+      },
+      "viewportScreenshot": "C:\\Users\\Kirian\\Desktop\\LandingFactory\\projects\\legalWebsite\\docs\\design\\captures\\tablet-768x1024-viewport.png",
+      "fullPageScreenshot": "C:\\Users\\Kirian\\Desktop\\LandingFactory\\projects\\legalWebsite\\docs\\design\\captures\\tablet-768x1024-full.png",
+      "metrics": {
+        "scrollWidth": 768,
+        "clientWidth": 768,
+        "scrollHeight": 8800,
+        "hasHorizontalOverflow": false,
+        "title": "M&P — Mikhailov & Partners | Private Services Group"
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "viewportScreenshot": "C:\\Users\\Kirian\\Desktop\\LandingFactory\\projects\\legalWebsite\\docs\\design\\captures\\mobile-390x844-viewport.png",
+      "fullPageScreenshot": "C:\\Users\\Kirian\\Desktop\\LandingFactory\\projects\\legalWebsite\\docs\\design\\captures\\mobile-390x844-full.png",
+      "metrics": {
+        "scrollWidth": 390,
+        "clientWidth": 390,
+        "scrollHeight": 9550,
+        "hasHorizontalOverflow": false,
+        "title": "M&P — Mikhailov & Partners | Private Services Group"
+      },
+      "consoleErrors": [],
+      "pageErrors": [],
+      "failedRequests": []
+    }
+  ]
+}
